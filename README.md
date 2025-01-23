@@ -58,3 +58,12 @@ Now login again with sam user and check if user got the permissions.
 kubectl config use-context sam-context
 kubectl get pods
 ```
+How delete new added contetx
+```bash
+kubectl config delete-context sam-context
+```
+
+how to see context
+```bash
+kubectl config get-contexts
+```
