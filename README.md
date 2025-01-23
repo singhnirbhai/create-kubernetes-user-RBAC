@@ -18,6 +18,7 @@ kind: CertificateSigningRequest
 metadata:
   name: sam-csr
 spec:
+  signerName: kubernetes.io/kubelet-serving
   request: 
   expirationSeconds: 86400  # one day
   usages:
