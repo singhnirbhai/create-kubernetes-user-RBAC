@@ -67,3 +67,8 @@ how to see context
 ```bash
 kubectl config get-contexts
 ```
+How we see the current cluster name 
+
+```bash
+kubectl config get-contexts
+```
