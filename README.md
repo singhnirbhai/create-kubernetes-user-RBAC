@@ -12,7 +12,9 @@ S0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTU%
 ```
 Create the CertificateSigningRequest, add the base64 encoded csr next to the request field.
 ```bash
-cat signingrequest.yaml
+vi signingrequest.yaml
+```
+```bash
 apiVersion: certificates.k8s.io/v1
 kind: CertificateSigningRequest
 metadata:
