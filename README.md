@@ -43,6 +43,7 @@ kubectl get csr sam-csr -o jsonpath='{.status.certificate}' | base64 -d > sam.cr
 Set context for the user.
 ```
 kubectl config set-credentials sam --client-certificate=sam.crt --client-key=sam.key
+ kubectl config get-contexts # list all context
 kubectl config set-context sam-context --cluster=<cluster-name> --user=sam
 kubectl config use-context sam-context
 ```
