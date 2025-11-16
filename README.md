@@ -23,6 +23,8 @@ spec:
   expirationSeconds: 86400  # one day
   usages:
   - client auth
+```
+```bash
 kubectl apply -f signingrequest.yaml
 ```
 
